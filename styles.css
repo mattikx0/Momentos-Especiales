@@ -1,0 +1,200 @@
+/* General */
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #fdf6e3; /* Fondo color crema */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background-color: #f5d5d5; /* Tono rosado suave */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1.title {
+    font-family: 'Playfair Display', serif;
+    color: #333;
+    font-size: 3em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 10px 0;
+}
+
+/* Estilos del Menú */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav ul li a i {
+    margin-right: 8px;
+}
+
+nav ul li a:hover {
+    color: #d9534f; /* Retoque rosado */
+}
+
+/* Carrusel */
+.carousel {
+    position: relative;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    height: 800px; /* Altura fija para uniformidad */
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #f5d5d5; /* Fondo rosado para los bordes */
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slides img {
+    width: 100%;
+    height: 100%; /* Mantén el tamaño de las imágenes */
+    object-fit: cover; /* Para que se adapten sin distorsión */
+    border-radius: 10px;
+}
+
+/* Botones de navegación */
+button.prev, button.next {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+
+button.prev:hover, button.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Dedicatoria */
+.dedicatoria {
+    text-align: center;
+    background-color: #f5d5d5;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.dedicatoria h2 {
+    font-family: 'Playfair Display', serif;
+    color: #333;
+}
+
+.dedicatoria p {
+    font-size: 1.2em;
+    font-family: 'Raleway', sans-serif;
+    color: #d9534f; /* Retoque rosado */
+}
+
+/* Sección de la Canción */
+.cancion {
+    text-align: center;
+    background-color: #fdf6e3;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.cancion h2 {
+    font-family: 'Playfair Display', serif;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.cancion p {
+    font-size: 1.2em;
+    font-family: 'Raleway', sans-serif;
+    color: #333;
+    margin-top: 10px;
+}
+
+audio {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #fdf6e3;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #fdf6e3;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Sección de la Canción de Spotify */
+.spotify {
+    text-align: center;
+    background-color: #fdf6e3;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.spotify h2 {
+    font-family: 'Playfair Display', serif;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.spotify p {
+    font-size: 1.2em;
+    font-family: 'Raleway', sans-serif;
+    color: #333;
+    margin-top: 10px;
+}
+
+iframe {
+    margin-top: 10px;
+    border-radius: 12px;
+}
